@@ -19,7 +19,7 @@
  */
 function concatenateStrings(value1, value2) {
   return value1 + value2;
-}
+};
 
 /**
  * Returns the length of given string.
@@ -34,7 +34,7 @@ function concatenateStrings(value1, value2) {
  */
 function getStringLength(value) {
   return value.lenght;
-}
+};
 
 /**
  * Returns the result of string template and given parameters firstName and lastName.
@@ -51,7 +51,7 @@ function getStringLength(value) {
  */
 function getStringFromTemplate(firstName, lastName) {
   return 'Hello, ${firstName} ${lastName}!';
-}
+};
 
 /**
  * Extracts a name from template string 'Hello, First_Name Last_Name!'.
